@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./less/style.less">
+  </head>
+  <body>
+
+    <section class="card-container">{{> header}}</section>
+    <main>
+      <section class="hero-panel">
+        <h1>Ing. Cristopher Gabriel Giron Morales</h1>
+        <picture>
+          <source srcset="./img/consola.jpg" media="(min-width:1024px)" />
+          <img src="./img/montaña.jpg" alt="Cabecera Principal" />
+        </picture>
+      </section>
+      <section class="card-container">
+        <div class="card">
+          <div class="card-image">
+            <img alt="Imágen de Tarjeta" src="./img/montaña.jpg" />
+          </div>
+          <div class="card-title">
+            <h2>Estudiante de ingeniería en Ciencias de la Computación</h2>
+          </div>
+          <div class="body">
+            <p>- (+504) 9481-6110
+              <br>
+              Correo: crg_gironm@unicah.edu
+              <br>
+              Vivienda: Siguatepeque, Honduras
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img alt="Imágen de Tarjeta" src="./img/luces.jpg" />
+          </div>
+          <div class="card-title">
+            <h2>Jefe de Luminica</h2>
+          </div>
+          <div class="body">
+            <p>3 años de experiencias como técnico de luminotecnía en la iglesia Mar de
+              Galilea en la ciudad de Siguatepeque, actualmente liderando el area de multimedia.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img alt="Imágen de Tarjeta" src="./img/sombrero.jpg" />
+          </div>
+          <div class="card-title">
+            <h2>Audio</h2>
+          </div>
+          <div class="body">
+            <p>4 años de experiencias como técnico de audio en la 
+              iglesia Mar de Galilea en la ciudad de Siguatepeque.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="card-container">{{> footer}}</section>
+</body>
+
+</html>
